@@ -1,0 +1,196 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    font-family: Courier New, monospace;
+}
+
+.auto-align {
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* MAIN MENU */
+
+.main-menu {
+    height: 50px;
+    margin-top: 30px;
+}
+
+.main-menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.main-menu :nth-child(2)  {
+    margin-top: 13px;
+}
+
+.main-menu .logo {
+    height: 50px;
+    width: 50px;
+}
+
+.main-menu .link_contact {
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid #66ccff;
+    transition: 0.5s;
+    font-weight: bold;
+    color: #66ccff;
+}
+
+.main-menu .link_contact:hover {
+    background-color: #66ccff;
+    color: white;
+    transition: 0.5s;
+}
+
+/**/
+
+
+/* MAIN-TITLE */
+
+.main-title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main-title :nth-child(1) {
+    margin-bottom: 15px;
+}
+
+/**/
+
+/* MAIN-AVATAR */
+
+.main-avatar {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main-avatar .avatar {
+    height: 250px;
+    width: 250px;
+}
+
+/**/
+
+
+/* MAIN-GRAPH */
+
+.main-graph {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.main-graph .presentation {
+    height: 550px;
+    background-color: #66ccff;
+    padding-top: 150px;
+}
+
+.main-graph .text_presentation h4 {
+    margin-top: 30px;
+}
+
+
+/**/
+
+
+/* INFOS */
+
+.main-graph .infos {
+    border: 1px solid #66ccff;
+    background-color: white;
+    margin-top: 120px;
+    border-radius: 15px;
+}
+
+.main-graph .container-end {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.main-graph .container-end h4 {
+    margin: 50px 0px 50px 0px;
+    font-weight: normal;
+}
+
+.main-graph .container-end h5 {
+    margin: 50px 0px 30px 0px;;
+    font-weight: normal;
+}
+
+.main-graph .container-end h2 {
+    color: #66ccff;
+}
+
+.main-graph .front-end {
+    border-radius: 15px 0px 0px 0px;
+    border-bottom: 1px solid #66ccff;
+    border-right: 1px solid #66ccff;
+}
+
+.main-graph .back-end {
+    border-radius: 0px 15px 0px 0px;
+    border-bottom: 1px solid #66ccff;
+}
+
+.back-end, .front-end {
+    width: 50%;
+}
+
+.main-graph .front_back {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-graph .container-tools {
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.main-graph .container-tools ul {
+    list-style: none;
+}
+
+.main-graph .container-tools ul li {
+    margin: 15px 0px 15px 0px;
+}
+
+.main-graph .container-tools h3 {
+    font-weight: normal;
+}
+
+.main-graph .container-tools h1 {
+    margin-left: 50px;
+}
+
+.img_lmj {
+    background-image: url(../img/LaMaisonJungle.png);
+}
+
+.img_lbp {
+    background-image: url(../img/balai-essuie-glace.png);
+    background-position: 0%;
+    background-size: 210px;
+}
+
+/* ALBUM */ 
+
+.album_title {
+    margin-bottom: 80px;
+}
+
+
+
+/* CONTACT */

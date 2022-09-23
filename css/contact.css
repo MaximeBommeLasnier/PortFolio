@@ -1,0 +1,39 @@
+.row {
+    width: 100%;
+}
+
+.fline {
+    margin-bottom: 5%;
+}
+
+.container {
+    padding-bottom: 5%;
+}
+
+.contact-container {
+    background-color: rgba(69, 141, 189, 0.1);
+    padding: 10%;
+    border-radius: 2%;
+}
+
+.main-avatar {
+    margin-bottom: 3%;
+}
+
+.btn {
+    background-color: rgb(69, 141, 189);
+    margin-top: 5%;
+}
+
+h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn:hover {
+    background-color: blue;
+}  
+
+.map_link {
+    text-decoration: none;
+}
