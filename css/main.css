@@ -185,6 +185,12 @@ html {
     background-size: 210px;
 }
 
+.img_api {
+    background-image: url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png);
+    background-position: 0%;
+    background-size: 210px;
+}
+
 /* ALBUM */ 
 
 .album_title {
